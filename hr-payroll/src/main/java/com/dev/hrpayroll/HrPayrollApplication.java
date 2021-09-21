@@ -1,4 +1,4 @@
-package com.dev.hrworker;
+package com.dev.hrpayroll;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

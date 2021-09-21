@@ -22,14 +22,14 @@ public class Worker implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String name;
-	private String dailyIncome;
+	private Double dailyIncome;
 	
 
 	public Worker() {
 		super();
 	}
 
-	public Worker(Long id, String name, String dailyIncome) {
+	public Worker(Long id, String name, Double dailyIncome) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -52,11 +52,11 @@ public class Worker implements Serializable {
 		this.name = name;
 	}
 
-	public String getDailyIncome() {
+	public Double getDailyIncome() {
 		return dailyIncome;
 	}
 
-	public void setDailyIncome(String dailyIncome) {
+	public void setDailyIncome(Double dailyIncome) {
 		this.dailyIncome = dailyIncome;
 	}
 
